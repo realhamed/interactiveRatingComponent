@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+ul li:hover {
+  background-color: #959eac;
+  color: white;
+}
+
+ul li.selected {
+  background-color: #fb7413;
+  color: white;
+}
